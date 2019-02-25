@@ -1,0 +1,161 @@
+* {
+ margin:0;
+ padding:0;
+}
+body {
+  font-family: verdana;
+}
+/* INICIO HEADER */
+header  {
+  height: 60px;
+  border-bottom: 3px solid #000;
+  padding: 15px;
+}
+#logoheader img {
+  float:left;
+}
+#logoheader .textoheader {
+  float: left;
+  width: 300px;
+  padding-left:10px; 
+}
+#logoheader .titulo {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#logoheader .subtitulo a {
+  font-size: 16px;
+  font-weight: 400;
+  color:lightblue;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#codigoheader {
+float: right;
+}
+
+/* FIN HEADER */
+
+/* INICIO FOOTER */
+footer {
+  border-top:3px solid #000;
+}
+footer ul li {
+  list-style-type: none;
+  float: left;
+  display: block;
+}
+footer ul li a {
+  text-decoration: none;
+  color:#000;
+  padding: 40px 20px;
+  font-size: 20px;
+}
+footer div {
+  float: right;
+  padding: 0 25px 0 0;
+}
+
+/* FIN FOOTER */
+
+
+
+/* INICIO MAIN */
+main {
+  clear: both;
+}
+main h1 {
+  padding: 40px 10px;
+}
+.cabezera {
+  width: 300px;
+  margin:auto;
+}
+.cabezera * {
+  float:left;
+}
+.clear {
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+.contenedorcuadros {
+  width: 80%;
+  background: rgb(236, 236, 236);
+  margin:auto;
+  margin-bottom:20px;
+}
+.contenedorcuadros .titlecuadro {
+  position: relative;
+  height: 100px;
+  padding: 1%;
+}
+.contenedorcuadros .titlecuadro .img {
+  width: 98%;
+  height: 88%;
+  opacity: 0.6;
+}
+.contenedorcuadros .titlecuadro .txt {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.contenedorcuadros .titlecuadro > * {
+  position: absolute;
+}
+.contenedorcuadros .titlecuadro .img {
+  background:#fff url('../img/destinos-viajes.jpg');
+}
+.contenedorcuadros .cuadros {
+  float:left;
+  width:25%;
+  height: 150px;;
+  text-align: center;
+  padding: 20px 0 0 0;
+  overflow: hidden;
+
+}
+.contenedorcuadros .cuadros iframe{
+width: 95%;
+height: auto;
+}
+.contenedorcuadros ul li {
+  list-style-type: none;
+  text-align: left;
+  padding: 1px 10px;
+  font-weight: 600;
+}
+.contenedorcuadros p {
+  color:black;
+  font-size: 32px;
+}
+.contenedorcuadros p span {
+  color: gray;
+}
+.contenedorcuadros .footcuadros {
+  padding: 10px;
+  font-size: 18px;
+}
+.contenedorcuadros .footcuadros span, .contenedorcuadros .footcuadros img {
+  float: right;
+}
+.recomendados .titlecuadro .img{
+  background:#fff url('../img/destinos-viajes2.jpg');
+}
+.recomendados {
+  background: rgb(158, 199, 247);
+}
+.principales .titlecuadro {
+background: gray;
+}
+.recomendados .titlecuadro {
+background: lightseagreen;
+}
+
+/* FIN MAIN */

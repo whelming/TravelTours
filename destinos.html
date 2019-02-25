@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <!-- <meta http-equiv="refresh" content="1"> -->
+
+  <!-- <script src="main.js"></script> -->
+
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/destinos.css">
+
+</head>
+
+<body>
+
+
+  <header>
+    <div id="logoheader">
+      <a href="./index.html"> <img src="./img/logo.jpeg" alt="Logo" width="92px"></a>
+      <div class="textoheader">
+        <div class="titulo">Travel Tours</div>
+        <div class="subtitulo">
+          <a href="./destinos.html"> Destinos </a>
+        </div>
+      </div>
+    </div>
+    <div id="codigoheader">
+      <a href="https://codigo.edu.pe/" target="_blank"><img src="./img/codigo.jpg" alt="Logo" width="180px"></a>
+      
+    </div>
+  </header>
+
+
+
+  <main>
+
+    <div class="cabezera">
+      <img src="./img/icon-video.jpg" width="120px" alt="">
+      <h1>Destinos</h1>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="contenedorcuadros principales">
+        <div class="titlecuadro">
+            <div class="img"></div>
+            <div class="txt">RECOMENDADOS</div>
+        </div>
+      <div class="cuadros">
+        <ul>
+          <li>Cancun</li>
+          <li>Mexico</li>
+          <li>Nueva York</li>
+          <li>Los Angeles</li>
+        </ul>
+        <p>★★★<span>★★</span></p>
+      </div>
+      <div class="cuadros"><iframe width="560" height="315" src="https://www.youtube.com/embed/ovbFQ-4GM9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="cuadros"><iframe width="560" height="315" src="https://www.youtube.com/embed/ovbFQ-4GM9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="cuadros"><iframe width="560" height="315" src="https://www.youtube.com/embed/ovbFQ-4GM9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="footcuadros">
+        Vuelos: Baratos <span>Codigo</span> <img src="./img/destinos-user.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="contenedorcuadros recomendados">
+        <div class="titlecuadro">
+          <div class="img"></div>
+          <div class="txt">PRINCIPALES</div>
+      </div>
+        <div class="cuadros">
+          <ul>
+            <li>Paris</li>
+            <li>Egipto</li>
+            <li>China</li>
+            <li>Noruega</li>
+          </ul>
+          <p>★★★★<span>★</span></p>
+        </div>
+        <div class="cuadros"><iframe width="560" height="315" src="https://www.youtube.com/embed/ovbFQ-4GM9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="cuadros"><iframe width="560" height="315" src="https://www.youtube.com/embed/ovbFQ-4GM9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="cuadros"><iframe width="560" height="315" src="https://www.youtube.com/embed/ovbFQ-4GM9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="footcuadros">
+          Vuelos: Caros <span>Codigo</span> <img src="./img/destinos-user.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="clear"></div>
+  </main>
+
+
+
+
+  <footer>
+    <ul>
+      <li><a href="./destinos.html">Destinos</a></li>
+      <li><a href="./videos.html">Videos</a></li>
+      <li><a href="./testimonios.html">Testimonios</a></li>
+    </ul>
+    <div>
+      <img src="./img/mundo.png" alt="" width="92px">
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    (function () {
+      var h, a, f;
+      a = document.getElementsByTagName('link');
+      for (h = 0; h < a.length; h++) {
+        f = a[h];
+        if (f.rel.toLowerCase().match(/stylesheet/) && f.href) {
+          var g = f.href.replace(/(&|\?)rnd=\d+/, '');
+          f.href = g + (g.match(/\?/) ? '&' : '?');
+          f.href += 'rnd=' + (new Date().valueOf());
+        }
+      } // for
+    })()
+  </script>
+
+</body>
+
+</html>
