@@ -59,7 +59,9 @@ footer div {
 
 /* FIN FOOTER */
 
+a:last-child {
 
+}
 
 /* INICIO MAIN */
 main {
@@ -83,14 +85,16 @@ main h1 {
 }
 .contenedorcuadros {
   width: 80%;
-  background: rgb(236, 236, 236);
+  background: #FBD8AC;
   margin:auto;
   margin-bottom:20px;
+  border: 1px solid #000;
 }
 .contenedorcuadros .titlecuadro {
   position: relative;
   height: 100px;
   padding: 1%;
+  border-bottom: 1px solid #000;
 }
 .contenedorcuadros .titlecuadro .img {
   width: 98%;
@@ -113,13 +117,12 @@ main h1 {
   background:#fff url('../img/destinos-viajes.jpg');
 }
 .contenedorcuadros .cuadros {
-  float:left;
-  width:25%;
-  height: 150px;;
+  width: 24%;
+  height: 150px;
   text-align: center;
   padding: 20px 0 0 0;
   overflow: hidden;
-
+  display: inline-block;
 }
 .contenedorcuadros .cuadros iframe{
 width: 95%;
@@ -132,30 +135,34 @@ height: auto;
   font-weight: 600;
 }
 .contenedorcuadros p {
-  color:black;
+  color:#7D1698;
   font-size: 32px;
 }
 .contenedorcuadros p span {
-  color: gray;
+  color: #F89085;
 }
 .contenedorcuadros .footcuadros {
-  padding: 10px;
+  padding: 5px 10px;
   font-size: 18px;
+  background: #fff;
+  border-top: 1px solid #000;
 }
 .contenedorcuadros .footcuadros span, .contenedorcuadros .footcuadros img {
   float: right;
+  top: -1px;
+  position: relative;
 }
 .recomendados .titlecuadro .img{
   background:#fff url('../img/destinos-viajes2.jpg');
 }
 .recomendados {
-  background: rgb(158, 199, 247);
+  background: #FAD883;
 }
 .principales .titlecuadro {
-background: gray;
+background: red;
 }
 .recomendados .titlecuadro {
-background: lightseagreen;
+background: #F6CB56;
 }
 
 /* FIN MAIN */
