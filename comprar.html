@@ -3,64 +3,106 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./comprar.css">
+    <link rel="stylesheet" href="./css/comprar.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <title>Comprar Tour</title>
 </head>
 
 <body>
-    <img src="./img/logo.png" width="140" alt="7" align="left">
-    <h2>TURISMO TOURS</h2>
-    <h3>Comprar</h3>
-    <hr>
 
-    <div id="body">
-        <div style="width: 80%; float:left" id="titulo">
-            <img src="./img/logo.png" width="160" alt="7" align="center">
-            Comprar Tour
+        <header>
+                <div id="logoheader">
+                    <a href="./index.html"> <img src="./img/logo.jpeg" alt="Logo" width="92px"></a>
+                    <div class="textoheader">
+                        <div class="titulo">Travel Tours</div>
+                        <div class="subtitulo">
+                            <a href="./videos.html"> Videos </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="codigoheader">
+                    <a href="https://codigo.edu.pe/" target="_blank"><img src="./img/codigo.jpg" alt="Logo" width="180px"></a>
+        
+                </div>
+            </header>
+
+<main>
+
+    
+        <div id="body">
+            <div id="titulo">
+                <img src="./img/logo.png" width="160" alt="7" align="center">
+                Comprar Tour
+            </div>
+    
+            <form action="">
+    
+                <div style="width: 100%; float:left" class="usuario">
+                    <input type="text" name="usuario" id="usuario" placeholder="USUARIO" required>
+                </div>
+    
+                <div style="width: 50%; float:left" id="contenedor">
+                    <label for="idnombres">Nombres:</label>
+                    <input type="text" name="nombres" id="idnombres" required>
+                    <label for="ciuor">Ciudad Origen</label>
+                    <select name="ciuor" id="ciuor">
+                        <option value="0">Seleccione...</option>
+                        <option value="1">Arequipa</option>
+                        <option value="2">Tacna</option>
+                        <option value="3">Lima</option>
+                        <option value="4">Cuzo</option>
+                        <option value="5">Iquitos</option>
+                    </select>
+                    <label for="fechida">Fecha Ida</label>
+                    <input type="date" name="fecha" required>
+                    <input type="checkbox" id="acepto">
+                    <label id="labelacepto" for="acepto">Acepto Politicas y Condiciones</label>
+                   
+                    <div style="text-align: center; ">
+                        <button style="position: absolute; ">Comprar Tour</button>
+                    </div>
+                    <div style="text-align: center; ">
+                        <div id="termininoscompleto"> Terminos y Condiciones: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis neque voluptatem omnis natus excepturi praesentium? Dolores illum facilis placeat mollitia recusandae, porro tempora temporibus! Placeat, perferendis sit? Pariatur, sit accusantium.</div>
+                    </div>
+    
+                </div>
+                <div style="width: 50%; float:left" id="contenedor">
+                    <label for="idapellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" id="idapellidos" required>
+                    <label for="ciudest">Ciudad Destino</label>
+                    <select name="ciudest" id="ciudest">
+                        <option value="0">Seleccione...</option>
+                        <option value="1">Arequipa</option>
+                        <option value="2">Tacna</option>
+                        <option value="3">Lima</option>
+                        <option value="4">Cuzo</option>
+                        <option value="5">Iquitos</option>
+                    </select>
+                    <label for="fechvuel">Fecha Vuelta</label>
+                    <input type="date" name="fecha" required>
+                </div>
+    
+            </form>
+            <div class="clear"></div>
         </div>
 
-        <form action="">
+</main>
 
-            <div style="width: 100%; float:left" class="usuario">
-                <input type="text" name="usuario" id="usuario" placeholder="USUARIO" required>
-            </div>
 
-            <div style="width: 50%; float:left" id="contenedor">
-                <label for="idnombres">Nombres:</label>
-                <input type="text" name="nombres" id="idnombres" required>
-                <label for="ciuor">Ciudad Origen</label>
-                <select name="ciuor" id="ciuor">
-                    <option value="0">Seleccione...</option>
-                    <option value="1">Arequipa</option>
-                    <option value="2">Tacna</option>
-                    <option value="3">Lima</option>
-                    <option value="4">Cuzo</option>
-                    <option value="5">Iquitos</option>
-                </select>
-                <label for="fechida">Fecha Ida</label>
-                <input type="date" name="fecha" required>
-               
-                <div style="text-align: center; ">
-                    <button style="position: absolute; ">Comprar Tour</button>
-                </div>
+    <footer>
+            <ul>
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./videos.html">Videos</a></li>
+              <li><a href="./comprar.html">Comprar</a></li>
+              <li><a href="./testimonios.html">Testimonios</a></li>
+              <li><a href="./destinos.html">Destinos</a></li>
+            </ul>
+            <div>
+              <img src="./img/mundo.png" alt="" width="92px">
             </div>
-            <div style="width: 50%; float:left" id="contenedor">
-                <label for="idapellidos">Apellidos:</label>
-                <input type="text" name="apellidos" id="idapellidos" required>
-                <label for="ciudest">Ciudad Destino</label>
-                <select name="ciudest" id="ciudest">
-                    <option value="0">Seleccione...</option>
-                    <option value="1">Arequipa</option>
-                    <option value="2">Tacna</option>
-                    <option value="3">Lima</option>
-                    <option value="4">Cuzo</option>
-                    <option value="5">Iquitos</option>
-                </select>
-                <label for="fechvuel">Fecha Vuelta</label>
-                <input type="date" name="fecha" required>
-            </div>
-        </form>
-    </div>
+          </footer>
+
+
 </body>
 
 </html>
