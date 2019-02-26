@@ -8,11 +8,10 @@
 header {text-align:center;}
 .item{
     background-color: white;
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: blue;
-    font-family: calibri;
     font-weight: 600;
     text-shadow: 0 0 3px white;
     float: left;
@@ -54,8 +53,9 @@ header a{
 }
 main{text-align: center;
   padding-bottom: 80px;}
-#tabla1{width: 80%;
-        margin: auto;
+#tabla1{width: 85%;
+  margin: 40px auto 0;
+  display: inline-block;
       }
 
 main table .celda{
@@ -83,10 +83,12 @@ main table td{
     float: left;
     padding: 100px;
     color: red;
+    width: 20%;
 }
 
 .izque .der{
   color: black;
+  font-size: 25px;
 }
 .der{text-align: left;}
 footer {
