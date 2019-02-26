@@ -45,11 +45,21 @@ footer {
   float: right;
   }
   body{
-    font-family: calibri;
+    font-family: Verdana;
     font-size: 20px;
   }
 #video{
-    margin: 3;
+  }
+  h2 {
+    font-weight: 500;
+  }
+  #aceptoterm {
+    text-align: center;
+    margin: 13px;
+    font-size: 15px;
+  }
+  h1 {
+    font-weight: 400;
   }
   #categorias{
     background-color: #CAE9B8;
@@ -62,23 +72,30 @@ footer {
   }
   #tabla tr>td {
     padding: 10px 15px;
+    width: 302px;
  }
  #cargar{
-   background-color: blue;
+   background-color: #5683F6;
    color: white;
    padding: 6px 40px;
    border-radius: 6px;
    font-size: 16px;
  }
+ #listaaa{
+   text-align: left;
+  padding-left: 15%;
+ }
  #svideo{
-   background-color: green;
-   color: white;
-   padding: 20px 200px;
-   border-radius: 6px;
-   font-size: 30px;
+  background-color: green;
+  color: white;
+  padding: 12px 84px;
+  border-radius: 6px;
+  font-size: 30px;
  }
  #mensaje{
    color: red;
+   height: 202px;
+   padding: 10px;
  }
  #idnombre{
    padding: 10px 4opx;

@@ -5,24 +5,26 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="./css/testimonios.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+
 </head>
 
 <body>
-  <header>
-    <div id="logoheader">
-      <a href="./index.html"> <img src="./img/logo.jpeg" alt="Logo" width="92px"></a>
-      <div class="textoheader">
-        <div class="titulo">Travel Tours</div>
-        <div class="subtitulo">
-          <a href="./destinos.html"> Destinos </a>
+    <header>
+        <div id="logoheader">
+            <a href="./index.html"> <img src="./img/logo.jpeg" alt="Logo" width="92px"></a>
+            <div class="textoheader">
+                <div class="titulo">Travel Tours</div>
+                <div class="subtitulo">
+                    <a href="./videos.html"> Videos </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div id="codigoheader">
-      <a href="https://codigo.edu.pe/" target="_blank"><img src="./img/codigo.jpg" alt="Logo" width="180px"></a>
+        <div id="codigoheader">
+            <a href="https://codigo.edu.pe/" target="_blank"><img src="./img/codigo.jpg" alt="Logo" width="180px"></a>
 
-    </div>
-  </header>
+        </div>
+    </header>
 
   <main>
     <table align="center">
@@ -51,16 +53,16 @@
     <p align="center" style="color: red">
       * El archivo a subir tiene que tener maximo 250 mb
     </p>
-    <pre>
+    <div id="aceptoterm">
 
                                                               <input type="checkbox" name="" value="tyc" id=""><label for="">Acepto terminos y condiciones</label>
-    </pre>
+    </div>
     <table width="90%" BORDER="1" id="tabla" align="center">
       <tr>
         <td id="categorias" align="center">
-          <h1>Categorias</h1>
+          <h2>Categorias</h2>
 
-          <p>
+          <div id="listaaa">
             <p>
               <input type="checkbox" name="musica" value="mus" id="musica"><label for=""> Musica</label>
             </p>
@@ -79,10 +81,10 @@
               <input type="checkbox" name="otros" value="o" id="otros">
               <label for="">Otros......</label>
             </p>
-          </p>
+          </div>
         </td>
         <td id="etiquetas" align="center">
-          <H1>#Etiquetas</H1>
+          <h2>#Etiquetas</h2>
           <p>
             <label for="idnombres"></label>
             <input type="text" name="nombres" required id="idnombres" minlength="20" maxlength="30"
@@ -115,7 +117,7 @@
           </p>
         </td>
         <td id="descripcion" align="center">
-          <H1>Descripcion</H1>
+          <h2>Descripcion</h2>
           <p>
             <label for="mensaje"></label>
             <textarea name="mensaje" id="mensaje" cols="30" rows="15"></textarea>
@@ -135,15 +137,17 @@
   </main>
 
   <footer>
-    <ul>
-      <li><a href="./destinos.html">Destinos</a></li>
-      <li><a href="./videos.html">Videos</a></li>
-      <li><a href="./testimonios.html">Testimonios</a></li>
-    </ul>
-    <div>
-      <img src="./img/mundo.png" alt="" width="92px">
-    </div>
-  </footer>
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./videos.html">Videos</a></li>
+        <li><a href="./comprar.html">Comprar</a></li>
+        <li><a href="./testimonios.html">Testimonios</a></li>
+        <li><a href="./destinos.html">Destinos</a></li>
+      </ul>
+      <div>
+        <img src="./img/mundo.png" alt="" width="92px">
+      </div>
+    </footer>
 
 </body>
 
